@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeee;
+}
+
+.main_container{
+  background: url('https://images.pexels.com/photos/1369476/pexels-photo-1369476.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940')
+  no-repeat center/cover;
+  height: 400px;
+}
+
+.main_container .inner{
+  background-color: rgba(0,0,0,0.2);
+  height: 400px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.view_txt{
+  color : white;
+ font-weight: bold
+}
+.load_txt{
+  align-content: center;
+  font-size: 25px;
+  color : grey;
+ font-weight: bold
+}
+.section_main{
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.bg-white{
+  background-color: white;
+}
+
+.serDiv{
+     margin-bottom: 334px;
+    margin-left: -31%;
+}
+.fnt18{
+  font-size: 18px
+}
